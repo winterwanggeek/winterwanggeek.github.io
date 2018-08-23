@@ -1,0 +1,199 @@
+/*public*/
+
+html, body {
+    width: 100%;
+    height: 100%；
+}
+body, p, h1, h2, h3, h4, h5, h6, dl, dd {
+    margin: 0;
+    font-size: 12 px;
+    font-family: "微软雅黑" ;
+}
+ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: none;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse；
+}
+th, td {
+    padding: 0;
+}
+form, select {
+    margin: 0;
+}
+input {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+textarea {
+    margin: 0;
+    padding: 0;
+    resize: none;
+    overflow: auto;
+}
+body {
+    background: url("../images/bg.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: .9;
+    filter: alpha(opacity=90);
+    letter-spacing: 0.1em;
+}
+/*end public*/
+#top {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    background-color: rgba(7, 15, 15, 0.4);
+    color: #fff;
+    text-align: left;
+    padding-left: 310px;
+    box-sizing: border-box;
+}
+
+/*main*/
+#box {
+    width: 800px;
+    height: 540px;
+    background-color: rgba(255, 255, 255, .8);
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+
+/*start head*/
+#box .b-head {
+    width: 100%;
+    height: 60px;
+    background-color: #4caf50;
+    padding: 6px 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+#box .b-head .h-img {
+    margin: 0 20px;
+    float: left;
+    border-radius: 50%;
+    user-select: none;
+}
+#box .b-head .h-span {
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+    float: left;
+    user-select: none;
+}
+/*end head*/
+
+/*body start*/
+#box .b-body {
+    width: 100%;
+    height: 360px;
+    overflow: auto;
+    margin: 20px 0;
+}
+
+#box .b-body .rotWord,
+.myWord {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#box .b-body .rotWord span,
+#box .b-body .myWord span {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+#box .b-body .rotWord span {
+    background: url("../images/littleLove.png");
+    background-size: cover;
+    float: left;
+    margin-left: 30px;
+}
+
+#box .b-body .rotWord p,
+#box .b-body .myWord p{
+    word-break: break-all;
+    font-size: 16px;
+    padding: 8px 10px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 6px;
+    max-width: 400px;
+}
+
+#box .b-body .rotWord p {
+    float: left;
+    margin-left: 12px;
+    background-color: rgba(0, 0, 255, .5);
+}
+
+#box .b-body .myWord span {
+    background: url("../images/me.jpg");
+    background-size: cover;
+    float: right;
+    margin-right: 30px;
+}
+
+#box .b-body .myWord p {
+    float: right;
+    margin-right: 12px;
+    background-color: #19b955;
+    opacity: .9;
+    filter: alpha(opacity=90);
+    -webkit-filter: alpha(opacity=90);
+}
+/*end body*/
+
+/*footer start*/
+
+#box .b-footer {
+    width: 760px;
+    height: 60px;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+#f_left {
+    padding-left: 20px;
+    outline: none;
+    overflow: hidden;
+    width: 620px;
+    height: 60px;
+    color: rgba(255, 255, 255, .9);
+    float: left;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn {
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #4caf50;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    border-radius: 10px;
+}
+/*end footer*/
