@@ -1,35 +1,385 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>myRobot--littleLove</title>
+    <title>小哲，我爱你--永远爱你</title>
+    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="表白,爱情,甜蜜,幸福" />
+    <meta name="description" content="小哲，我爱你--永远爱你，爱情的甜蜜，告白气球" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="机器人" >
-    <meta name="description" content="机器人" >
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="/templates/staric/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/templates/staric/css/base.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/templates/staric/css/main.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/templates/staric/css/venobox.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/templates/staric/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/templates/staric/css/ae168344b8194b348b667f19ac4d1956.css" rel="stylesheet">
+    <link href="/css/index.css" rel="stylesheet" type="text/css" media="all" />
+    <script type='text/javascript' src='/templates/common/clipboard.min.js'></script>
 </head>
+
 <body>
-    <div id="top">智能机器人--小爱同学</div>
-    <div id="box">
-        <div class="b-head">
-            <img class="h-img" src="images/logo.png" width="80" height="60" alt="一生所爱"/>
-            <span class="h-span">小爱同学</span>
-        </div>
-        <div class="b-body" id="b_body">
-            <div class="rotWord">
-                <span></span>
-                <p>嗨，最近想我没？</p>
-            </div>
-        </div>
-        <div class="b-footer">
-            <input type="text" name="text" id="f_left"/>
-            <div id="btn">发送</div>
+    <div class="loader">
+        <div class="loader-inner">
+            <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle class="spinner" cx="50" cy="50" r="21" fill="#ffffff" stroke-width="2" />
+            </svg>
         </div>
     </div>
-    <script src="js/myAjax.js"></script>
-    <script src="js/main.js"></script>
+    <div class="wrapper">
+        <section class="hero overlay">
+            <div class="background-img">
+                <img src="/templates/staric/picture/149760288381289.jpg" alt="">
+            </div>
+            <header class="header default">
+                <div class=" left-part">
+                    <a class="logo scroll" href="#hero">
+                        <h2>LOVE</h2>
+                    </a>
+                </div>
+                <div class="right-part">
+                    <nav class="main-nav">
+                        <div class="toggle-mobile-but">
+                            <a href="#" class="mobile-but">
+                                <div class="lines"></div>
+                            </a>
+                        </div>
+                        <ul>
+                            <li><a class="scroll" href="#home">爱的篇章</a></li>
+                            <li><a class="scroll" href="#story">爱的故事</a></li>
+                            <li><a class="scroll" href="#album">爱的未来</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="inner-hero">
+                <div class="container hero-content">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h1 class="large mb-20">i love you</h1>
+                            <div class="block-date-hero">
+                                <div class="circle-dashed bg-n">
+                                    <div class="round-circle">
+                                        <svg viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                            class="dashed-border">
+                                            <circle cx="50%" cy="50%" r="50" />
+                                        </svg>
+                                        <i class="icon-heart"></i>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li>小哲</li>
+                                    <li>小冬</li>
+                                </ul>
+                            </div>
+                            <p class="mt-20 lead"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="story" class="story pt-120 pb-120">
+            <svg class="section-dashed" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="578px"
+                xml:space="preserve">
+                <path class="dashed-line" stroke-width="1" d="M30 0 v600 400" />
+            </svg>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center mb-100">
+                        <h1 class="title">Our love story</h1>
+                        <p>The Story of our love</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 text-center mb-30">
+                        <h2 class="heavy">我们的爱情故事<br><span>愿得一人心，白首不分离</span></h2>
+                    </div>
+                </div>
+                <div class="row story-row mt-100 mb-100">
+                    <div class="circle-dashed timeline bg">
+                        <div class="round-circle bg before">
+                            <svg viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                class="dashed-border">
+                                <circle cx="50%" cy="50%" r="50" />
+                            </svg>
+                            <i class="icon-heart"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 ">
+                        <div class="couple-story text-right">
+                            <p>小学的时候只知道贪玩，懵懵懂懂的我们憧憬着美好的爱情，那时候对你的印象就很好，天天爱笑的你，是那么的活泼可爱，而我还时常欺负你，懂事的你不与我计较，但彼此都笑得很开心，回忆是那么地甜。</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-2">
+                        <div class="couple-story">
+                            <p>直到我们再次相遇，你还是那么漂亮大方，楚楚动人，那天，我有点不敢相信自己，仿佛是在梦里，仿佛又是冥冥中注定，让我再次遇到了这么好的你，这一次我要用尽全身力气，好好地疼爱你珍惜你，不让你再受一点伤害，我只想把世界上所有美好的事物都给你，我喜欢你，直到永远。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row story-row mt-100 mb-80 ">
+                    <div class="circle-dashed timeline bg green">
+                        <div class="round-circle  green before">
+                            <svg viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                class="dashed-border">
+                                <circle cx="50%" cy="50%" r="50" />
+                            </svg>
+                            <i class="icon-heart"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 ">
+                        <div class="couple-story text-right">
+                            <p>和你在一起的时候，真的好开心，我多么希望时间能走的慢一点，可我又多么希望你穿婚纱那天快点到来，你一定是世上最美的新娘，我们也一定会成为世界上最幸福的人，我的心为你沦陷，从此只为你跳动。你说的每一句话我都记在心里，我的承诺也一定会履行，爱的路上有你相伴，我就十分知足，从那天起我就下定决心好好对你，让你幸福便成为我最重要的事。</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-2">
+                        <div class="couple-story">
+                            <p>现在的我真的好想你，觉得和你一起吃饭才有味道，睡觉的时候也经常能在梦里看到你，看见你穿着婚纱和我一起走向爱的殿堂，我会努力挣钱养家，马上就在郑州买房，给你一个温馨的家，给你一个幸福的港湾，不想再让你受一点委屈，可能我的言语不多，但是我的行动会证明一切，脚踏实地就是我的行为准则，我相信皇天不负有心人，真心相爱，包容相处的我们一定会幸福的走下去的。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12  text-center mt-100">
+                        <a href="#" class="but">
+                            <span>Home</span>
+                            <svg class="but-svg" width="175" height="50" viewBox="0 0 415 120"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect class="but-rect" x="10" y="10" width="400" height="100" rx="6" ry="6" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="date pt-150 pb-150 overlay">
+            <div class="background-img">
+                <img src="/templates/staric/picture/4.jpg" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <h2 class="indent">Wedding date</h2>
+                    <div class="col-sm-12 text-center">
+                        <div class="block-content front-p">
+
+                            <h2 class="typo">Save the date</h2>
+                            <span id="elapseClock" class="text-white" style="font-size: 45px;font-weight: 300;">days
+                                <span class="digit">20</span> hours <span class="digit">14</span> minutes <span
+                                    class="digit">00</span> seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="album" class="album bg-grey pt-120 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center mb-100">
+                        <h1 class="title">爱的纪念册</h1>
+                        <p>你过分美丽 - 我过分欢喜</p>
+                    </div>
+                </div>
+                <div class="row mb-30">
+                    <h2 class="indent">Photo album</h2>
+                    <div class="col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="block-img">
+                            <a href="/image/m1.jpg" class="venobox">
+                                <div class="background-img">
+                                    <img alt="" src="/image/m1.jpg">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="block-img">
+                            <a href="/image/m3.jpg" class="venobox">
+                                <div class="background-img">
+                                    <img alt="" src="/image/m3.jpg">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="block-img">
+                            <a href="/image/m2.jpg" class="venobox">
+                                <div class="background-img">
+                                    <img alt="" src="/image/m2.jpg">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="block-img">
+                            <a href="/image/m4.jpg" class="venobox">
+                                <div class="background-img">
+                                    <img alt="" src="/image/m4.jpg">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="block-img">
+                            <a href="/image/m5.jpg" class="venobox">
+                                <div class="background-img">
+                                    <img alt="" src="/image/m5.jpg">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="block-img">
+                            <a href="/image/m6.jpg" class="venobox">
+                                <div class="background-img">
+                                    <img alt="" src="/image/m6.jpg">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="just-married pt-200 pb-200 overlay">
+            <div class="background-img">
+                <img src="/templates/staric/picture/40.jpg" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div class="block-content front-p">
+                            <h2 class="typo">❤</h2>
+                            <h2 class="heavy uppercase mt-10 light">生死契阔，与子成悦<br/>执子之手，与子携老</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer pt-70 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <p class="uppercase heavy normal">&copy; love forever. 小哲 & 小冬</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/templates/staric/js/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="/templates/staric/js/jquery.countdown.min.js" type="text/javascript"></script>
+    <script src="/templates/staric/js/venobox.min.js" type="text/javascript"></script>
+    <script src="/templates/staric/js/smooth-scroll.js" type="text/javascript"></script>
+    <script src="/templates/staric/js/script.js" type="text/javascript"></script>
+
+    <script>
+        (function () {
+            function log(info) {
+                console.log(info);
+                // alert(info);
+            }
+
+            function forceSafariPlayAudio() {
+                audioEl.load(); // iOS 9   还需要额外的 load 一下, 否则直接 play 无效
+                audioEl.play(); // iOS 7/8 仅需要 play 一下
+            }
+
+            var audioEl = document.getElementById('bgmusic');
+            if (!audioEl) return;
+            audioEl.addEventListener('loadstart', function () {
+                log('loadstart');
+            }, false);
+            audioEl.addEventListener('loadeddata', function () {
+                log('loadeddata');
+            }, false);
+            audioEl.addEventListener('loadedmetadata', function () {
+                log('loadedmetadata');
+            }, false);
+            audioEl.addEventListener('canplay', function () {
+                log('canplay');
+            }, false);
+            audioEl.addEventListener('play', function () {
+                log('play');
+                // 当 audio 能够播放后, 移除这个事件
+                window.removeEventListener('touchstart', forceSafariPlayAudio, false);
+            }, false);
+            audioEl.addEventListener('playing', function () {
+                log('playing');
+            }, false);
+            audioEl.addEventListener('pause', function () {
+                log('pause');
+            }, false);
+
+            // 由于 iOS Safari 限制不允许 audio autoplay, 必须用户主动交互(例如 click)后才能播放 audio,
+            // 因此我们通过一个用户交互事件来主动 play 一下 audio.
+            window.addEventListener('touchstart', forceSafariPlayAudio, false);
+
+            audioEl.src = "http://api.zxgnz.com/api/music.php?url=www.51bbw.cn&tiaozhuan=&id=429459947";
+        })();
+    </script>
+    <script type="text/javascript">
+        var together = new Date();
+        var strs = "2005-07-01 00:00:00";
+        var nowTime = new Date();
+        var together = new Date(strs.replace(/-/g, "/"));
+        timeElapse(together);
+        setInterval(function () {
+            timeElapse(together);
+        }, 500);
+
+        function timeElapse(c) {
+            var e = Date();
+            var f = (Date.parse(e) - Date.parse(c)) / 1000;
+            var g = Math.floor(f / (3600 * 24));
+            f = f % (3600 * 24);
+            var b = Math.floor(f / 3600);
+            if (b < 10) {
+                b = "0" + b
+            }
+            f = f % 3600;
+            var d = Math.floor(f / 60);
+            if (d < 10) {
+                d = "0" + d
+            }
+            f = f % 60;
+            if (f < 10) {
+                f = "0" + f
+            }
+            var a = '<span class="digit">' + g + '</span> days <span class="digit">' + b +
+                '</span> hours <span class="digit">' + d + '</span> minutes <span class="digit">' + f +
+                "</span> seconds";
+            $("#elapseClock").html(a)
+        };
+    </script>
+
+
+    <link rel="stylesheet" href="css/cuplayer.css">
+
+    <script type="text/javascript">
+        //获取picid函数
+        $(function () {
+            $("area").click(function () {
+                var picId = $(this).attr("data-id");
+                var picSrc = "images/img_big/" + picId + ".jpg"
+                $(".modal-content>.pic-box>img").attr("src", picSrc);
+            })
+            var isPlaying = function (audio) {
+                return !audio.paused;
+            }
+            var a = document.getElementById('main_audio');
+            $('#btn-play').on('click', function () {
+                if ($(this).hasClass('rotate')) {
+                    a.pause();
+                    $(this).removeClass('rotate');
+                } else {
+                    a.play();
+                    $(this).addClass('rotate');
+                }
+            });
+
+        })
+    </script>
+
+
 </body>
+<script type='text/javascript' src='/templates/common/common_love.js'></script>
+
 </html>
